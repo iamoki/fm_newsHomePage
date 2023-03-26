@@ -17,13 +17,18 @@
         <img src="/assets/images/logo.svg" alt="">
       </h1>
       <nav class="lnb">
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">New</a></li>
-          <li><a href="">Popular</a></li>
-          <li><a href="">Trending</a></li>
-          <li><a href="">Categories</a></li>
-        </ul>
+        <button class="moBtn">
+          <span></span>
+        </button>
+        <div class="menus">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">New</a></li>
+            <li><a href="">Popular</a></li>
+            <li><a href="">Trending</a></li>
+            <li><a href="">Categories</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
     <section class="contents innerSize">
@@ -89,5 +94,11 @@
       </article>
     </section>
   </main>
+  <script>
+    const moBtn = document.querySelector('.moBtn');
+    moBtn.addEventListener('click', function() {
+      this.classList.toggle('on');
+    });
+  </script>
 </body>
 </html>

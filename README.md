@@ -16,4 +16,4 @@
 ![3](https://user-images.githubusercontent.com/76725512/227767327-23c8d9cd-4d3f-46b6-866a-8f0b61bc90e6.png)
 
 ### 링크
-- [go-page]()
+- [go-page](https://iamoki.github.io/fm_newsHomePage/)
